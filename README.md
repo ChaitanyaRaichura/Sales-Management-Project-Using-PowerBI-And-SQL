@@ -17,13 +17,13 @@ The business request for this data analyst project was an executive sales report
 ## **Data Cleansing & Transformation (SQL)**
 
 - To create the necessary data model for doing analysis and fulfilling the business needs defined in the user stories the following tables were extracted using SQL.
-- One data source [_FACT_SentSalesBudget_](Data for Power BI/FACT_SentSalesBudget.xlsx) were provided in Excel format and were connected in the data model in a later step of the process.
+- One data source [_FACT_SentSalesBudget_](Data_for_Power_BI/FACT_SentSalesBudget.xlsx) were provided in Excel format and were connected in the data model in a later step of the process.
 - Below are the SQL statements for cleansing and transforming necessary data.
 
-  1. [_DIM_Calendar.sql_](SQL Queries/DIM_Calendar.sql)
-  2. [_DIM_Customers.sql_](SQL Queries/DIM_Customers.sql)
-  3. [_DIM_Product.sql_](SQL Queries/DIM_Product.sql)
-  4. [_FACT_InternetSales.sql_](SQL Queries/FACT_InternetSales.sql)
+  1. [_DIM_Calendar.sql_](SQL_Queries/DIM_Calendar.sql)
+  2. [_DIM_Customers.sql_](SQL_Queries/DIM_Customers.sql)
+  3. [_DIM_Product.sql_](SQL_Queries/DIM_Product.sql)
+  4. [_FACT_InternetSales.sql_](SQL_Queries/FACT_InternetSales.sql)
 
 
 ![SQL QUERIES](Images/SQL_QUERIES.png)
@@ -33,7 +33,7 @@ The business request for this data analyst project was an executive sales report
 
 Below is a screenshot of the data model after cleansed, prepared tables were read into Power BI and after creating required measures.
 
-This data model also shows how [_FACT_InternetSales_](Data for Power BI/FACT_InternetSales.csv) and [_FACT_Budget_](Data for Power BI/FACT_SentSalesBudget.xlsx) has been connected to other necessary DIM tables.
+This data model also shows how [_FACT_InternetSales_](Data_for_Power_BI/FACT_InternetSales.csv) and [_FACT_Budget_](Data_for_Power_BI/FACT_SentSalesBudget.xlsx) has been connected to other necessary DIM tables.
 
 
 ![Data Model](Images/Data_Modelling_Screenshot.png)
