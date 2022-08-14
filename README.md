@@ -25,14 +25,20 @@ The business request for this data analyst project was an executive sales report
   3. [_DIM_Product.sql_](SQL Queries/DIM_Product.sql)
   4. [_FACT_InternetSales.sql_](SQL Queries/FACT_InternetSales.sql)
 
+
 ![SQL QUERIES](Images/SQL_QUERIES.png)
+
+
 ## **Data Model**
 
 Below is a screenshot of the data model after cleansed, prepared tables were read into Power BI and after creating required measures.
 
 This data model also shows how [_FACT_InternetSales_](Data for Power BI/FACT_InternetSales.csv) and [_FACT_Budget_](Data for Power BI/FACT_SentSalesBudget.xlsx) has been connected to other necessary DIM tables.
 
+
 ![Data Model](Images/Data_Modelling_Screenshot.png)
+
+
 ## **Sales Management Dashboard**
 
 The finished sales management dashboard with first page which works as both dashboard and as overview of sales and budget, with two other pages focused on combining tables for necessary details and visualizations to show sales over time per customers and per products respectively.
@@ -41,9 +47,12 @@ Final report can be downloaded using the link: [Sales_Report_Final.pbix](Sales_R
 
 Below are the screenshots of the Sales_Report_Final.pbix report:
 
+
 ![Sales_Overview_Screenshot.png](Images/Sales_Overview_Screenshot.png)
 
+
 ![Customer_Details_Screenshot.png](Images/Customer_Details_Screenshot.png)
+
 
 ![Product_Details_Screenshot.png](Images/Product_Details_Screenshot.png)
 
