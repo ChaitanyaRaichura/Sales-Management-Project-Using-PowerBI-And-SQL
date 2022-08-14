@@ -1,7 +1,7 @@
 # **Sales Management Project using PowerBI and SQL**
 
 
-![Overview](Sales-Management-Project-Using-PowerBI-And-SQL/Images/Overview.png)
+![Overview](Images/Overview.png)
 
 
 ## **Business Request and User Stories**
