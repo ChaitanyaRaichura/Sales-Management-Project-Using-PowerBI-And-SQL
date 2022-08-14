@@ -26,7 +26,7 @@ The business request for this data analyst project was an executive sales report
   4. [_FACT_InternetSales.sql_](SQL_Queries/FACT_InternetSales.sql)
 
 
-![SQL QUERIES](Images/SQL_QUERIES.png)
+![SQL_Queries_Collage](Images/SQL_Queries_Collage.png)
 
 
 ## **Data Model**
