@@ -17,35 +17,35 @@ The business request for this data analyst project was an executive sales report
 ## **Data Cleansing & Transformation (SQL)**
 
 - To create the necessary data model for doing analysis and fulfilling the business needs defined in the user stories the following tables were extracted using SQL.
-- One data source [_FACT_SentSalesBudget_](Sales-Management-Project-Using-PowerBI-And-SQL/Data for Power BI/FACT_SentSalesBudget.xlsx) were provided in Excel format and were connected in the data model in a later step of the process.
+- One data source [_FACT_SentSalesBudget_](Data for Power BI/FACT_SentSalesBudget.xlsx) were provided in Excel format and were connected in the data model in a later step of the process.
 - Below are the SQL statements for cleansing and transforming necessary data.
 
-  1. [_DIM_Calendar.sql_](Sales-Management-Project-Using-PowerBI-And-SQL/SQL Queries/DIM_Calendar.sql)
-  2. [_DIM_Customers.sql_](Sales-Management-Project-Using-PowerBI-And-SQL/SQL Queries/DIM_Customers.sql)
-  3. [_DIM_Product.sql_](Sales-Management-Project-Using-PowerBI-And-SQL/SQL Queries/DIM_Product.sql)
-  4. [_FACT_InternetSales.sql_](Sales-Management-Project-Using-PowerBI-And-SQL/SQL Queries/FACT_InternetSales.sql)
+  1. [_DIM_Calendar.sql_](SQL Queries/DIM_Calendar.sql)
+  2. [_DIM_Customers.sql_](SQL Queries/DIM_Customers.sql)
+  3. [_DIM_Product.sql_](SQL Queries/DIM_Product.sql)
+  4. [_FACT_InternetSales.sql_](SQL Queries/FACT_InternetSales.sql)
 
-![SQL QUERIES](Sales-Management-Project-Using-PowerBI-And-SQL/Images/SQL_QUERIES.png)
+![SQL QUERIES](Images/SQL_QUERIES.png)
 ## **Data Model**
 
 Below is a screenshot of the data model after cleansed, prepared tables were read into Power BI and after creating required measures.
 
-This data model also shows how [_FACT_InternetSales_](Sales-Management-Project-Using-PowerBI-And-SQL/Data for Power BI/FACT_InternetSales.csv) and [_FACT_Budget_](Sales-Management-Project-Using-PowerBI-And-SQL/Data for Power BI/FACT_SentSalesBudget.xlsx) has been connected to other necessary DIM tables.
+This data model also shows how [_FACT_InternetSales_](Data for Power BI/FACT_InternetSales.csv) and [_FACT_Budget_](Data for Power BI/FACT_SentSalesBudget.xlsx) has been connected to other necessary DIM tables.
 
-![Data Model](Sales-Management-Project-Using-PowerBI-And-SQL/Images/Data_Modelling_Screenshot.png)
+![Data Model](Images/Data_Modelling_Screenshot.png)
 ## **Sales Management Dashboard**
 
 The finished sales management dashboard with first page which works as both dashboard and as overview of sales and budget, with two other pages focused on combining tables for necessary details and visualizations to show sales over time per customers and per products respectively.
 
-Final report can be downloaded using the link: [Sales_Report_Final.pbix](Sales-Management-Project-Using-PowerBI-And-SQL/Sales_Report_Final.pbix). It needs Power BI Desktop installed in PC to open that file.
+Final report can be downloaded using the link: [Sales_Report_Final.pbix](Sales_Report_Final.pbix). It needs Power BI Desktop installed in PC to open that file.
 
 Below are the screenshots of the Sales_Report_Final.pbix report:
 
-![Sales_Overview_Screenshot.png](Sales-Management-Project-Using-PowerBI-And-SQL/Images/Sales_Overview_Screenshot.png)
+![Sales_Overview_Screenshot.png](Images/Sales_Overview_Screenshot.png)
 
-![Customer_Details_Screenshot.png](Sales-Management-Project-Using-PowerBI-And-SQL/Images/Customer_Details_Screenshot.png)
+![Customer_Details_Screenshot.png](Images/Customer_Details_Screenshot.png)
 
-![Product_Details_Screenshot.png](Sales-Management-Project-Using-PowerBI-And-SQL/Images/Product_Details_Screenshot.png)
+![Product_Details_Screenshot.png](Images/Product_Details_Screenshot.png)
 
 
 ### _**Thank you for your valuable time**_
